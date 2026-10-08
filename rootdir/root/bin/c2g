@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [[ ! -d .git ]]; then
+	echo "Error: this isn't a git repository, exiting"
+	exit 2
+fi
+
+git add .
+git commit -m "$(hostname) - $(id -run) - $(date)
+git push -u origin main
+
+exit 0
