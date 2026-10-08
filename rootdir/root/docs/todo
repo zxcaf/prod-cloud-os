@@ -1,0 +1,29 @@
+1. snapshot from prod (prod-snapshot)
+	= in progress
+
+2. determine if it is fixable 
+
+	= how to diagnose the boot process of a disk image, for a fedora 43 installation
+
+	2a. try to fix and boot to new hardware
+
+	= just try to boot again
+
+3. get package list and start rebuilding
+
+	= how to get a package list from a disk image
+
+4. create github for everything so it can all be reinstalled
+
+	=> need to install git
+		=> done
+	=> set up locations to store data
+		=> done (/zxcaf/git)
+	=> how to git?
+		=> done c2g
+
+5. objects
+	5a. 	mail
+	5b.	image work
+	5c.	other
+
